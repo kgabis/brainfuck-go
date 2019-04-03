@@ -4,16 +4,15 @@ Brainfuck-Go is a [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck) interprete
 ## Usage
 Compile using go build and run:
 ```
-./bf filename
+$ go build .
+$ ./brainfuck-go hw.bf
+Hello World!
 ```
 
 ## Examples
 ```
-./bf hw.bf
-```
-```
 curl -s "http://www.99-bottles-of-beer.net/download/1718" > bottles.bf
-./bf bottles.bf
+./brainfuck-go bottles.bf
 ```
 
 ## License
